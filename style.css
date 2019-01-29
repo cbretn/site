@@ -231,8 +231,9 @@ border-top: 3px solid white;
 
 .project-image {
   width: 180px;
-  padding: 20px;`
+  padding: 20px;
   border-radius: 50px;
+  border: 0px;
 }
 
 #contact {
