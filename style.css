@@ -34,7 +34,8 @@ a:hover {
 #home-banner {
   background-image: url('images/home_banner.jpeg');
   height: 320px; /* 425px */
-  width: 1700px;
+/*  width: 1700px;*/
+  width: 100vw;
   position: relative;
   left: 0px;
   top: 0px;
@@ -42,6 +43,12 @@ a:hover {
   margin-bottom: 0px;
   padding-bottom: 0px;
   box-shadow: 2px 2px 1px grey;
+}
+
+.section-flexbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .darken-overlay {
@@ -93,8 +100,8 @@ a:hover {
   position: absolute;
   text-align: center;
   color: #FFFFFF;
-  top: 50px;
-  left: 700px;
+/*  top: 50px;
+  left: 700px;*/
 }
 
 .centered-text h1 {
@@ -200,8 +207,9 @@ border-top: 3px solid white;
 
 #profile {
   background-image: url('images/Turn-On-The-Lights.jpg');
+  background-size: cover;
   height: 320px; /* 425px */
-  width: 1700px;
+  width: 100vw;
   position: relative;
   left: 0px;
   top: 0px;
@@ -213,8 +221,9 @@ border-top: 3px solid white;
 
 #projects {
   background-image: url('images/OS.jpg');
+  background-size: cover;
   height: 320px; /* 425px */
-  width: 1700px;
+  width: 100vw;
   position: relative;
   left: 0px;
   top: 0px;
@@ -238,8 +247,9 @@ border-top: 3px solid white;
 
 #contact {
   background-image: url('images/Connect-Me-Please.jpg');
+  background-size: cover;
   height: 320px; /* 425px */
-  width: 1700px;
+  width: 100vw;
   position: relative;
   left: 0px;
   top: 0px;
